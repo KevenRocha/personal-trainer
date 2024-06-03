@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Personal Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Personal Trainer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#banner">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <h2>Transforme sua vida com um treinamento personalizado</h2>
+            <p>Alcance seus objetivos de fitness com o melhor acompanhamento profissional.</p>
+            <a href="#contact" class="btn">Agende uma Consulta</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou um personal trainer certificado com mais de 10 anos de experiência ajudando clientes a alcançarem seus objetivos de fitness. Meu compromisso é fornecer um treinamento personalizado e de alta qualidade.</p>
+        <img src="/public/assets/images/personal-trainer.jpg" alt="Foto do Personal Trainer">
+    </section>
+
+    <section id="services" class="container">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li><img src="/public/assets/images/icon-training.jpg" alt="Treinamento"> Treinamento Personalizado</li>
+            <li><img src="/public/assets/images/icon-diet.jpg" alt="Dieta"> Planos de Dieta</li>
+            <li><img src="/public/assets/images/icon-online.jpg" alt="Online"> Acompanhamento Online</li>
+        </ul>
+    </section>
+
+    <section id="benefits" class="container">
+        <h2>Vantagens e Benefícios</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <img src="/public/assets/images/icon-benefit1.jpg" alt="Benefício">
+                <p>Planos de treino personalizados</p>
+            </div>
+            <div class="benefit">
+                <img src="/public/assets/images/icon-benefit2.jpg" alt="Benefício">
+                <p>Motivação constante</p>
+            </div>
+            <div class="benefit">
+                <img src="/public/assets/images/icon-benefit3.jpg" alt="Benefício">
+                <p>Suporte profissional</p>
+            </div>
+        </div>
+        <blockquote>
+            <p>"Treinar com ele mudou minha vida!" - Cliente Satisfeito</p>
+        </blockquote>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="container">
+        <div class="footer-info">
+            <p>&copy; 2024 Personal Trainer. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="#"><img src="/public/assets/images/icon-facebook.jpg" alt="Facebook"></a>
+                <a href="#"><img src="/public/assets/images/icon-instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="/public/assets/images/icon-twitter.jpg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
